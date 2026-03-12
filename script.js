@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault(); 
         
         // Coloque o seu link de vendas real entre as aspas abaixo:
-        window.location.href = "https://www.trevo.club/";
+        window.location.href = "https://www.trevo.club/casino?form=signup";
     });
 });
