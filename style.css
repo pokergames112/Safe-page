@@ -124,3 +124,45 @@ body {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+/* =========================================
+   RESPONSIVIDADE (Telas menores que 600px)
+   ========================================= */
+@media (max-width: 600px) {
+    /* Reduz um pouco o espaçamento interno para ganhar área útil no celular */
+    .top-section {
+        padding: 40px 15px;
+    }
+
+    .bottom-section {
+        padding: 40px 15px;
+    }
+
+    /* Reduz levemente o tamanho do cadeado */
+    .main-icon {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    /* Ajusta a fonte e o padding do botão para não vazar da tela */
+    .cta-button {
+        font-size: 20px;
+        padding: 16px 30px;
+    }
+
+    /* Diminui o espaçamento gigante entre os selos para eles caberem lado a lado */
+    .security-badges {
+        gap: 50px;
+    }
+
+    /* Ajusta a fonte dos links */
+    .links a {
+        font-size: 14px;
+    }
+
+    /* Compacta um pouco mais as letrinhas miúdas do rodapé */
+    .disclaimers p {
+        font-size: 10px;
+    }
+}
