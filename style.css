@@ -1,0 +1,126 @@
+/* Reseta margens e define a fonte padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000; /* Fundo do site preto */
+    color: #fff;
+}
+
+/* Área cinza superior */
+.top-section {
+    background-color: #383838;
+    flex: 1; /* Faz a área de cima crescer para preencher o espaço */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+/* ESTILOS PARA OS ESPAÇOS DE IMAGEM
+  Pode apagar a borda e o background-color quando colocar suas imagens reais.
+*/
+.image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(255, 255, 255, 0.05); /* Fundo sutil */
+    /* border: 1px dashed rgba(255, 255, 255, 0.3); /* Borda tracejada para visualização */
+}
+
+.image-placeholder img {
+    max-width: 200%;
+    height: auto;
+    display: block;
+}
+
+/* Espaço do Cadeado */
+.main-icon {
+    width: 200px;
+    height: 200px; 
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+/* Botão principal */
+.cta-button {
+    background-color: #2ed06e; /* Verde do botão */
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 18px 40px;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.cta-button:active {
+    transform: scale(0.98);
+    background-color: #25a858;
+}
+
+/* Área preta inferior */
+.bottom-section {
+    background-color: #000000;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Selos */
+.security-badges {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.badge {
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/* Links (Privacidade / Termos) */
+.links {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Textos de Aviso (Disclaimers) */
+.disclaimers {
+    text-align: center;
+    max-width: 700px;
+}
+
+.disclaimers p {
+    font-size: 11px;
+    color: #b3b3b3;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
